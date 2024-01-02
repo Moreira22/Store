@@ -1,9 +1,12 @@
+"use client"
+import { useSession } from 'next-auth/react'
 import Image from 'next/image'
 
 export default function Home() {
+
   return (
    <div className='text-red-500 bg-blue-500'>
- holle word
+  
    </div>
   )
   // aula 1 tempo =>  1 : 46 : 46
