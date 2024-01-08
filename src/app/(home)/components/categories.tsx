@@ -1,4 +1,4 @@
-"use client"
+
 import { prismaClient } from "@/lib/prisma";
 import CategoriesItem from "./categories-item";
 
