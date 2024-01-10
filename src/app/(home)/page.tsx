@@ -20,14 +20,14 @@ export default async function Home() {
         src="/banner-home-01.png"
         height={0}
         width={0}
-        className="h-auto w-full"
+        className="h-auto w-full px-5 mt-4"
         sizes="100vw"
         alt="até 55% de Desconto só este mês"
       />
-      <div className="mt-8 px-s">
+      <div className="mt-8 px-5">
         <Categories />
       </div>
-      <div className="mt-2">
+      <div className="mt-6 px-5">
         <p> OFERTAS</p>
       </div>
       <div className="mt-8">
@@ -35,5 +35,5 @@ export default async function Home() {
       </div>
     </div>
   );
-  // tempo : aula 2 => 00:44:56
+  // tempo : aula 2 => 01:19:41
 }
