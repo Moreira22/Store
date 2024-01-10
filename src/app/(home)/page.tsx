@@ -1,6 +1,5 @@
 "use client";
 import { useSession } from "next-auth/react";
-import Image from "next/image";
 import Categories from "./components/categories";
 import ProductListe from "./components/product-list";
 import { prismaClient } from "@/lib/prisma";
@@ -31,7 +30,7 @@ export default async function Home() {
   });
 
   return (
-    <div className=" flex flex-col gap-8">
+    <div className=" flex flex-col gap-8 py-8">
 
       <PromoBanner src="/banner-home-01.png" 
       alt="até 55% de Desconto só este mês"/>
