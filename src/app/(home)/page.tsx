@@ -22,10 +22,10 @@ export default async function Home() {
       },
     },
   });
-  const mouse = await prismaClient.product.findMany({
+  const mouses = await prismaClient.product.findMany({
     where:{
       category:{
-        slug: "mouse",
+        slug: "mouses",
       },
     },
   });
@@ -63,7 +63,7 @@ export default async function Home() {
       <SectionTitle title="mouses" />
 
       <div >
-        <ProductListe product={mouse} />
+        <ProductListe product={mouses} />
       </div>
 
     </div>
