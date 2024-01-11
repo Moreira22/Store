@@ -12,7 +12,7 @@ const CategoryItem = ({ category }: CategotyItemProps) => {
       <div className="flex h-[150px] w-full items-center justify-center 
       bg-category-item-gradient
       rounded-tl-lg rounded-tr-lg ">
-        <Image
+        {/* <Image
           src={category.imageUrl}
           alt={category.name}
           width={0}
@@ -22,7 +22,7 @@ const CategoryItem = ({ category }: CategotyItemProps) => {
           style={{
             objectFit: "contain",
           }}    
-        />
+        /> */}
       </div>
       <div className="bg-accent py-3 rounded-br-lg rounded-bl-lg">
         <p className="text-sm font-semibold text-center">{category.name}</p>
